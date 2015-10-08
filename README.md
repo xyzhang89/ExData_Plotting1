@@ -1,4 +1,5 @@
 ## Introduction
+This repo contains my course project for [Exploratory Data Analysis](https://class.coursera.org/exdata-032) course which is part of [Data Science Specialization](https://www.coursera.org/specialization/jhudatascience/1) provided by [Coursera](https://www.coursera.org).
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
