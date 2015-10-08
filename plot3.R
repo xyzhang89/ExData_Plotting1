@@ -5,6 +5,7 @@ library(sqldf)
 #the data in the file is separated by ";" instead of space, need to add seq=";"
 epc <- read.csv.sql(file, sql = 'select * from file where Date == "1/2/2007" or Date == "2/2/2007"',
                     header=TRUE,sep=";")
+
 library(lubridate)
 epc$Date_Time <- dmy_hms(paste(epc$Date,epc$Time))
 png(file = "plot3.png",width = 480, height = 480, units = "px")  
